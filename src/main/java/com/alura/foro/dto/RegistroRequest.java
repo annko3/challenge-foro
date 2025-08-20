@@ -1,6 +1,7 @@
 package com.alura.foro.dto;
 
-public record LoginRequest(
+public record RegistroRequest(
+        String nombre,
         String email,
         String password
 ) {}
